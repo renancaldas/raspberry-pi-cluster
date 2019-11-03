@@ -92,6 +92,11 @@ Custom config
 $ cd ~/fanshim-python/examples && sudo ./install-service.sh --on-threshold 60 --off-threshold 50 --delay 2 --brightness 255
 ```
 
+Watching temp
+```
+$ watch -n 1 vcgencmd measure_temp
+```
+
 ---
 ### 4. Done: next ideas
 
