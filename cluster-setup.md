@@ -84,6 +84,14 @@ Fan Shim Python Script:
   * $ sudo apt install python3-pip
 * https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-fan-shim
 
+Custom config
+* Turn on at 60°
+* Turn off at 50°
+* RGB at 255
+```
+$ cd ~/fanshim-python/examples && sudo ./install-service.sh --on-threshold 60 --off-threshold 50 --delay 2 --brightness 255
+```
+
 ---
 ### 4. Done: next ideas
 
