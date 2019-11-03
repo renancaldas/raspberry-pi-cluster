@@ -1,6 +1,6 @@
 1.open up a terminal window - Control, Alt,T
 
-2.apt update && apt upgrade
+2.sudo apt update && apt upgrade
 
 3.sudo rpi-update
 
