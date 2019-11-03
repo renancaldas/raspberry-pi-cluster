@@ -31,6 +31,10 @@ $ watch -n1 vcgencmd measure_clock arm
 
 CPU Benchmarking
 ```
-$ sysbench --num-threads=8 --test=cpu --cpu-max-prime=2000 run 
+$ sysbench --num-threads=8 --test=cpu --cpu-max-prime=2000 run
+
+If not installed:
+$ curl -s https://packagecloud.io/install/repositories/akopytov/sysbench/script.deb.sh | sudo bash
+$ sudo apt -y install sysbench 
 ```
 
