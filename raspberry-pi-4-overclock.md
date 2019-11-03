@@ -26,7 +26,11 @@ $ sudo reboot
 
 After restarting, this will display the current CPU speed in real time:
 ```
-watch -n1 vcgencmd measure_clock arm 
+$ watch -n1 vcgencmd measure_clock arm 
 ```
 
+CPU Benchmarking
+```
+$ sysbench --num-threads=8 --test=cpu --cpu-max-prime=2000 run 
+```
 
