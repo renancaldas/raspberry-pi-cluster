@@ -14,13 +14,13 @@
 ### 1. Hardware
 
 The case itself was 3d printed on a Prusa i3 MK3 using PLA filament, I'll leave the links for the printable parts and some footage from the process:
-- Files to print (.stl)
--- Stack mount: https://www.thingiverse.com/thing:2883047?fbclid=IwAR2jm9g8h_Y0gDxOqPw_cflQelIKZe3qx8vo1xCUZ1UaMJIDThuyJ2HnjDc
--- Wall bracket: https://www.thingiverse.com/thing:3594018?fbclid=IwAR1--Dl6uY-RaW55rIvJzcI6RYXuRX-IVUTYTWWs4xdIhilOPVdKukupomA
--- Stack mount (anker battery): https://www.thingiverse.com/thing:2758155?fbclid=IwAR2l5pLktHg4jz6l8797r8oWRwOJFtJXxyNyz8wqeyBAGBPAq5kllu0fnkY
-- Footage
--- Printer: https://photos.app.goo.gl/FRSSnsJZwtBNswXL8
--- Close up: https://photos.app.goo.gl/4cYvbbwHub425opw7
+* Files to print (.stl)
+  * Stack mount: https://www.thingiverse.com/thing:2883047?fbclid=IwAR2jm9g8h_Y0gDxOqPw_cflQelIKZe3qx8vo1xCUZ1UaMJIDThuyJ2HnjDc
+  * Wall bracket: https://www.thingiverse.com/thing:3594018?fbclid=IwAR1--Dl6uY-RaW55rIvJzcI6RYXuRX-IVUTYTWWs4xdIhilOPVdKukupomA
+  * Stack mount (anker battery): https://www.thingiverse.com/thing:2758155?fbclid=IwAR2l5pLktHg4jz6l8797r8oWRwOJFtJXxyNyz8wqeyBAGBPAq5kllu0fnkY
+* Footage
+  * Printer: https://photos.app.goo.gl/FRSSnsJZwtBNswXL8
+  * Close up: https://photos.app.goo.gl/4cYvbbwHub425opw7
 
 And this is the list of items purchased with the links included (the currency is Canadian Dollars)
 
@@ -43,10 +43,10 @@ And this is the list of items purchased with the links included (the currency is
 ### 2. Preparing SD Card
 
 First, we need to download the OS. I am using Raspbian Buster Lite (terminal only), but there is a Desktop version included, but consuming more resources - which is something that we do not want to waste in a cluster setup.
-- Raspbian:
--- https://www.raspberrypi.org/downloads/raspbian/
-- Other options:
--- https://www.raspberrypi.org/downloads/
+* Raspbian:
+  * https://www.raspberrypi.org/downloads/raspbian/
+* Other options:
+  * https://www.raspberrypi.org/downloads/
 
 Once we have downloaded the OS image, we have to save it in the SD Card:
 - https://www.raspberrypi.org/documentation/installation/installing-images/README.md
