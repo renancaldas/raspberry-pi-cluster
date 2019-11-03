@@ -63,7 +63,7 @@ First, we need to download the OS. I am using Raspbian Buster Lite (terminal onl
   * https://www.raspberrypi.org/downloads/
 
 Once we have downloaded the OS image, we have to save it in the SD Card:
-- https://www.raspberrypi.org/documentation/installation/installing-images/README.md
+* https://www.raspberrypi.org/documentation/installation/installing-images/README.md
 
 Done, now we can go to the next step!
 
@@ -71,14 +71,18 @@ Done, now we can go to the next step!
 ### 3. Initial Pi Setup
 
 Once we have our SD card ready, we are now going to say "hello world" to each Pi node: 
-- Connect the SD Card to the board
-- Connect the ethernet cable to the board to the router
-- Connect the USB-C cable to power on
+* Connect the SD Card to the board
+* Connect the ethernet cable to the board to the router
+* Connect the USB-C cable to power on
 
 [TODO...]
 
-Fan Shim Python Script: 
-- https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-fan-shim
+
+
+Fan Shim Python Script:
+* Install Python:
+  * $ sudo apt install python3-pip
+* https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-fan-shim
 
 ---
 ### 4. Done: next ideas
