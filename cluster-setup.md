@@ -100,6 +100,9 @@ $ watch -n 1 vcgencmd measure_temp
 ---
 ### 4. Done: next ideas
 
+NGINX
+https://github.com/renancaldas/aws-ec2-guide#3-nginx
+
 [TODO...]
 
 
