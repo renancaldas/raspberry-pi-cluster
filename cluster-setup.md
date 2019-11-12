@@ -102,6 +102,7 @@ $ watch -n 1 vcgencmd measure_temp
 
 NGINX
 https://github.com/renancaldas/aws-ec2-guide#3-nginx
+https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-16-04
 
 [TODO...]
 
