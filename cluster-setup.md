@@ -80,6 +80,8 @@ Once we have our SD card ready, we are now going to say "hello world" to each Pi
 
 
 Fan Shim Python Script:
+* Install Git
+  * $ sudo apt update
 * Install Python:
   * $ sudo apt install python3-pip
 * https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-fan-shim
